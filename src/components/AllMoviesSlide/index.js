@@ -8,7 +8,7 @@ const MoviesSlider = props => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 4,
     slidesToScroll: 1,
     swipe: true,
@@ -16,6 +16,10 @@ const MoviesSlider = props => {
     // centerMode: true,
     // centerPadding: '0px',
     swipeToSlide: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: 'linear',
+
     responsive: [
       {
         breakpoint: 768,

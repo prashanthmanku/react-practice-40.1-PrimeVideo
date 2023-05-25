@@ -1,27 +1,33 @@
+import './index.css'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import MovieItem from '../MovieItem'
 
-const MoviesSlider = props => {
+const LatestAndTrendingSlide = props => {
   const {moviesList} = props
+  console.log(moviesList)
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 4,
     slidesToScroll: 1,
     swipe: true,
     className: 'margin',
-    // centerMode: true,
-    // centerPadding: '0px',
     swipeToSlide: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: 'linear',
+    rtl: true,
+
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
           arrows: false,
+          slidesToShow: 2,
+          //   speed: 1000,
         },
       },
     ],
@@ -35,4 +41,4 @@ const MoviesSlider = props => {
     </Slider>
   )
 }
-export default MoviesSlider
+export default LatestAndTrendingSlide
