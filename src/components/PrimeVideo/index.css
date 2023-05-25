@@ -39,6 +39,32 @@
 }
 @media screen and (max-width: 500px) {
   .content-heading {
-    font-size: 14px;
+    font-size: 16px;
   }
+  .contact-us-heading {
+    font-size: 16px;
+  }
+}
+.contact-us-container {
+  text-align: center;
+}
+.contact-us-heading {
+  /* color: #ffffff; */
+  /* color: yellow; */
+  color: orange;
+  font-size: 25px;
+}
+.linkdin-icon {
+  color: #0a66c2;
+  height: 30px;
+  width: 30px;
+}
+
+.git-icon {
+  color: white;
+  height: 30px;
+  width: 30px;
+}
+.contact-link {
+  margin-right: 20px;
 }

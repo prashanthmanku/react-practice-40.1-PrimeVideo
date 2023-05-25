@@ -1,3 +1,5 @@
+import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
+// import {AiFillGithub} from 'react-icons/vs'
 import MoviesSlider from '../MoviesSlider'
 import LatestAndTrendingSlide from '../LatestAndTrendingSlide'
 import UpcomingMovies from '../UpcomingMovies'
@@ -42,6 +44,25 @@ const PrimeVideo = props => {
             <MoviesSlider moviesList={comedyMovies} />
             <h1 className="content-heading">All movies</h1>
             <AllMoviesSlide moviesList={moviesList} />
+
+            <div className="contact-us-container">
+              <h1 className="contact-us-heading">Contact Us</h1>
+              <a
+                href="https://www.linkedin.com/in/prashanth-manku97/"
+                target="_blank"
+                rel="noreferrer"
+                className="contact-link"
+              >
+                <AiFillLinkedin className="linkdin-icon" />
+              </a>
+              <a
+                href="https://github.com/prashanthmanku"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiFillGithub className="git-icon" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
