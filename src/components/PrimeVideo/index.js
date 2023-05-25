@@ -34,15 +34,15 @@ const PrimeVideo = props => {
         />
         <div className="app-content-container">
           <div className="app-content-width-container">
-            <h1 className="content-heading">Upcoming movies</h1>
+            <h1 className="content-heading">Upcoming Movies</h1>
             <UpcomingMovies moviesList={upcomingMovies} />
-            <h1 className="content-heading dots">Latest & trending movies</h1>
+            <h1 className="content-heading dots">Latest & Trending Movies</h1>
             <LatestAndTrendingSlide moviesList={latestMovies} />
-            <h1 className="content-heading">Action movies</h1>
+            <h1 className="content-heading">Action Movies</h1>
             <MoviesSlider moviesList={actionMovies} />
-            <h1 className="content-heading">Comedy movies</h1>
+            <h1 className="content-heading">Comedy Movies</h1>
             <MoviesSlider moviesList={comedyMovies} />
-            <h1 className="content-heading">All movies</h1>
+            <h1 className="content-heading">All Movies</h1>
             <AllMoviesSlide moviesList={moviesList} />
 
             <div className="contact-us-container">
